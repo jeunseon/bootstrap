@@ -1,0 +1,12 @@
+@charset "utf-8";
+.introduction img{width: 175px; height: 175px;}
+section{margin: 3rem 0;}
+a{text-decoration: none; color: #333; display: block;}
+@media (max-width:767px) {
+    .col-12{
+        flex:0 0 auto;
+        width: 100%;
+        text-align: center;
+        order:1; /* 이미지 위로 올리기 위해 글을 밑으로 내림 */
+    }
+}
